@@ -1,0 +1,95 @@
+header{                     /*color y estilo para la cabecera*/
+    background-color:black; 
+    color: rgb(74, 225, 210);
+    padding: 15px;
+    text-align: center;
+}
+
+body{
+margin: 0px;
+padding: 0px;
+font-family: fantasy;
+}
+
+
+
+
+nav{
+background-color: rgb(59, 30, 187);
+display: flex;
+flex-direction: row;
+}
+
+nav a{                  /*posicionar espacio y etiqueta para poder tener los estilos*/
+color: black;
+padding: 14px 20px;
+text-decoration: none;
+
+}
+
+a:hover{
+background-color: black;
+color: rgb(74, 225, 210);
+}
+
+section{
+background-image: url(../img/cyberpunk2.jpg);      /*utilizar slash para agregar imagen de la carpeta*/
+padding: 300px;
+background-size: cover;                    /*utliziar para cubrir toda la página */
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+footer{
+text-align-last: center;
+padding: 13px;
+background-color: black;
+    color: rgb(74, 225, 210);
+}
+
+footer a img{
+height: 20px;
+width: 20px;
+}
+
+.Enlace:hover{
+    background-attachment: none;
+    width: 300px;
+}
+
+.Visitar{
+    background-color: rgb(61, 163, 232);
+    color: black;
+    text-align: center;
+    padding: 10px;
+    width: 700px;
+    height: 65px;
+
+}
+
+.Productos{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 6px;
+width: 1300px;
+height: 65px;
+animation-name: productos;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+}
+
+@keyframes productos {
+    0% {background-color: rgb(70, 221, 151);}
+    15% {background-color: rgb(68, 128, 197);}
+    25% {background-color: rgb(32, 32, 145);}
+    35% {background-color: rgb(104, 26, 177);}
+    45% {background-color: rgb(189, 15, 87);}
+    55% {background-color: crimson;}
+    65% {background-color: rgb(180, 12, 12);}
+    75% {background-color: red;}
+    85% {background-color: rgb(236, 118, 8);}
+    95% {background-color: rgb(175, 236, 8);}
+    100% {background-color: rgb(45, 224, 99);}
+}
+
+
